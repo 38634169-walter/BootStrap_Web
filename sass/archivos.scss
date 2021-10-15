@@ -1,0 +1,52 @@
+
+
+$secundario:rgb(68, 68, 68);
+
+
+$grisClaro:rgb(49, 49, 49);
+$celeste:rgb(0, 116, 106);
+$celesteHover:rgb(0, 218, 218);
+$rojo:rgb(190, 0, 0);
+$rojoHover:rgb(248, 7, 7);
+$naranja:rgb(248, 7, 7);
+$naranjaHover:rgb(248, 7, 7);
+
+$secondary:$secundario;
+        
+@import "../bootstrap/scss/bootstrap.scss";
+
+@import "../bootstrap/scss/functions";
+
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/containers";
+@import "../bootstrap/scss/grid";
+
+.bg-gray{
+  background:$grisClaro;
+}
+.bg-light-blue{
+  background:$celeste;
+}
+.bg-light-blue:hover{
+  background:$celesteHover;
+}
+.bg-red{
+  background:$rojo;
+}
+.bg-red:hover{      
+  background:$rojoHover;
+}
+.bg-orange{
+  background:$naranja;
+}
+.bg-orange:hover{
+  background:$naranjaHover;
+}
+a{
+  text-decoration:none;
+}
